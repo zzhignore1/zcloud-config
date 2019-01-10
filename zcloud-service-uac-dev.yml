@@ -40,6 +40,8 @@ security:
     resource:
       id: paascloud-resource-uac
       filter-order: 3
+      token-info-uri: http://localhost:8000/oauth/check_token
+      user-info-uri: http://localhost:8000/user
 
 zcloud:
   enableSqlLogInterceptor: false
