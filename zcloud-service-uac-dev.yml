@@ -8,13 +8,13 @@ spring:
     url: jdbc:mysql://localhost:3306/paascloud_uac?characterEncoding=utf8&useSSL=false
 
 mybatis:
-  type-aliases-package: com.paascloud.provider.model.domain
+  type-aliases-package: com.zzh.zcloud.service.uac.model.domain
   mapper-locations: classpath:mapper/*.xml,classpath*:sdk/mapper/*.xml
   configuration:
     map-underscore-to-camel-case: true
 
 mapper:
-  mappers: com.paascloud.core.mybatis.MyMapper
+  mappers: com.zzh.common.core.mybatis.MyMapper
   not-empty: false
   identity: MYSQL
 
