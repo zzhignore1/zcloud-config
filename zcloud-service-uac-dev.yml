@@ -90,7 +90,7 @@ zcloud:
         ipMaxSendCount: 2
         totalMaxSendCount: 3
     oauth2:
-      tokenStore: redis
+      tokenStore: jwt
       clients[0]:
         clientId: paascloud-client-uac
         clientSecret: paascloudClientSecret
