@@ -115,7 +115,7 @@ security:
       jwt:
         key-uri: http://paascloud-provider-uac:8000/oauth/token_key
 
-zloud:
+zcloud:
   security:
     oauth2: 
       tokenStore: redis
